@@ -33,7 +33,7 @@ tar -xzvf spark-1.2.0-bin-hadoop2.4.tgz
 #Running service up
 mv spark-1.2.0-bin-hadoop2.4/ /usr/local/
 mv /usr/local/spark-1.2.0-bin-hadoop2.4/ /usr/local/spark
-echo "export SPARK_HOME=/user/local/spark" >> ~/.profile
+echo "export SPARK_HOME=/usr/local/spark" >> ~/.profile
 echo "export PATH=$SPARK_HOME/bin:$PATH" >> ~/.profile
 source ~/.profile
 
